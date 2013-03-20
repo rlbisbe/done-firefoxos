@@ -13,7 +13,8 @@ Tecnologías empleadas
 
 Capturas de pantalla
 ---------------------
-Próximamente
+![ScreenShot](https://raw.github.com/rlbisbe/done-firefoxos/master/snapshots/mainWindow.png)
+![ScreenShot](https://raw.github.com/rlbisbe/done-firefoxos/master/snapshots/mainWindow.png)
 
 Artículo en el blog
 ---------------------
