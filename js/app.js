@@ -6,21 +6,22 @@ var SimpleListModel = function(items) {
 
     this.addItem = function() {
 		if (this.itemToAdd() != "") {
-            this.items.push({title: this.itemToAdd(), added: "12:45"}); // Adds the item. Writing to the "items" observableArray causes any associated UI to update.
-            this.itemToAdd(""); // Clears the text box, because it's bound to the "itemToAdd" observable
+			var now = new Date();
+			this.items.push({title: this.itemToAdd(), added: now});
+            this.itemToAdd("");
             this.count(items.length);
 			document.getElementById("list").dataset.pagePosition = "viewport";
 			document.getElementById("add-view").dataset.pagePosition = "right";
         
         }      
-    }.bind(this);  // Ensure that "this" is always this view model
+    }.bind(this);
 
 };
  
 ko.applyBindings(new SimpleListModel([
-        { title: "Standard (sandwich)", added: "12:45" },
-        { title: "Premium (lobster)", added: "12:45" },
-        { title: "Ultimate (whole zebra)", added: "12:45" }
+        { title: "Probar Firefox OS", added: "10/01/13" },
+        { title: "Escribir en el blog", added: "13/11/12" },
+        { title: "Continuar el desarrollo	", added: "12/09/13" }
     ]));
 
 	document.getElementById("add-btn").addEventListener("click", function(){
