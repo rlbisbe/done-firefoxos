@@ -14,8 +14,10 @@ Tecnologías empleadas
 Capturas de pantalla
 ---------------------
 ![ScreenShot](https://raw.github.com/rlbisbe/done-firefoxos/master/snapshots/mainWindow.png)
-![ScreenShot](https://raw.github.com/rlbisbe/done-firefoxos/master/snapshots/mainWindow.png)
+
+![ScreenShot](https://raw.github.com/rlbisbe/done-firefoxos/master/snapshots/newTask.png)
 
 Artículo en el blog
 ---------------------
 Próximamente
+[Desarrollo para Firefox OS: Primer contacto](http://kcy.me/hcye)
